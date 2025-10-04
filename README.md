@@ -19,9 +19,13 @@ Clone this repository:
 
 `git clone https://github.com/SumitRodrigues/SumitRodrigues-package-sorter.git`
 
+---
+
 Run:
 
 `python sort.py`
+
+---
 
 Expected output:
 
@@ -30,6 +34,8 @@ SPECIAL
 SPECIAL
 REJECTED
 STANDARD
+
+---
 
 Test Cases:
 
