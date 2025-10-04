@@ -18,3 +18,37 @@ A Python function to classify packages into `STANDARD`, `SPECIAL`, or `REJECTED`
 Clone this repository:
 ```bash
 git clone https://github.com/SumitRodrigues/SumitRodrigues-package-sorter.git
+Run:
+
+python sort.py
+
+
+Expected output:
+
+SPECIAL
+SPECIAL
+SPECIAL
+REJECTED
+STANDARD
+
+✅ Test Cases
+
+(100, 100, 100, 10) → SPECIAL
+
+(200, 50, 50, 10) → SPECIAL
+
+(100, 100, 100, 25) → SPECIAL
+
+(200, 200, 200, 25) → REJECTED
+
+(50, 50, 50, 5) → STANDARD
+
+
+---
+
+## 🔹 Step 5: Push to GitHub
+In your terminal:
+```bash
+git add .
+git commit -m "Initial commit: package sorter solution"
+git push origin main
