@@ -16,12 +16,12 @@ A Python function to classify packages into `STANDARD`, `SPECIAL`, or `REJECTED`
 
 ## Usage
 Clone this repository:
-```bash
-git clone https://github.com/SumitRodrigues/SumitRodrigues-package-sorter.git
+
+`git clone https://github.com/SumitRodrigues/SumitRodrigues-package-sorter.git`
+
 Run:
 
-python sort.py
-
+`python sort.py`
 
 Expected output:
 
@@ -31,7 +31,7 @@ SPECIAL
 REJECTED
 STANDARD
 
-✅ Test Cases
+Test Cases:
 
 (100, 100, 100, 10) → SPECIAL
 
@@ -42,13 +42,3 @@ STANDARD
 (200, 200, 200, 25) → REJECTED
 
 (50, 50, 50, 5) → STANDARD
-
-
----
-
-## 🔹 Step 5: Push to GitHub
-In your terminal:
-```bash
-git add .
-git commit -m "Initial commit: package sorter solution"
-git push origin main
